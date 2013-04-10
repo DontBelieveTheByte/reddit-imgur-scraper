@@ -1,0 +1,12 @@
+#Set the full path where you want to save images. No trailing slash.
+savePath : /anywhere/redditimgur
+
+#The list of the subreddits you want to scrape.
+subreddits : 
+	- pics
+	- funny
+	- aww
+	- wtf
+
+#Set a minimum threshold of upvotes/downvotes ratio to disregard unpopular posts. Set to 0 to save all.
+score : 50
